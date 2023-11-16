@@ -9,8 +9,8 @@ load_dotenv()
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = int(getenv('API_ID', '16229284'))
-    API_HASH = str(getenv('API_HASH', 'ebd1fead3cc15343bea10b5c164165ba'))
+    API_ID = int(getenv('API_ID', '19902008'))
+    API_HASH = str(getenv('API_HASH', 'd973fa8af375787c85dd6d2dfac94d7e'))
     BOT_TOKEN = str(getenv('BOT_TOKEN', '6488689300:AAH6TCrcskFOMi2rFtD6nHQPK4Ninog9qUM'))
     name = str(getenv('name', 'Fast_Downloader_bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
@@ -19,10 +19,10 @@ class Var(object):
     PORT = int(getenv('PORT', '8080'))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
-    OWNER_ID = set(int(x) for x in os.environ.get("OWNER_ID", "1103137195").split())  
+    OWNER_ID = set(int(x) for x in os.environ.get("OWNER_ID", "5204439926 1103137195").split())  
     NO_PORT = bool(getenv('NO_PORT', False))
     APP_NAME = None
-    OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'md_test2_bot'))
+    OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'Dev_24_07'))
     if 'DYNO' in environ:
         ON_HEROKU = True
         APP_NAME = str(getenv('APP_NAME'))
