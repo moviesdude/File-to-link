@@ -13,7 +13,7 @@ class Var(object):
     API_HASH = str(getenv('API_HASH', 'd973fa8af375787c85dd6d2dfac94d7e'))
     BOT_TOKEN = str(getenv('BOT_TOKEN', '6488689300:AAH6TCrcskFOMi2rFtD6nHQPK4Ninog9qUM'))
     name = str(getenv('name', 'Fast_Downloader_bot'))
-    SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', ''))
+    SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '30'))
     WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002008584034'))
     PORT = int(getenv('PORT', '8080'))
